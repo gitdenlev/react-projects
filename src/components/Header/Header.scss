@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #9097fd;
+    padding: 10px;
+    border-radius: 10px;
+}

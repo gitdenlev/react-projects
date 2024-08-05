@@ -1,0 +1,51 @@
+.handler__btn {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #9097fd;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  color: #ffffff;
+}
+
+button:active {
+  scale: 1.1;
+}
+
+.btn__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.feedback__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 24px;
+
+  li:first-child {
+    color: #93FF3D;
+  }
+
+  li:nth-child(2) {
+    color: #FFCB59;
+  }
+
+  li:last-child {
+    color: #e75a5f;
+  }
+}
